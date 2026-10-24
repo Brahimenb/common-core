@@ -6,15 +6,15 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 18:41:36 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/15 14:32:58 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/10/22 19:49:51 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-	if(c >= 48 && c <= 57)
+	if (c >= 48 && c <= 57)
 		return (1);
 	return (0);
 }

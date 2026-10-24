@@ -6,13 +6,13 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 18:56:48 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/15 14:33:02 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/10/22 19:49:54 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
 		return (1);

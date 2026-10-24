@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                       :::      ::::::::    */
-/*   ft_strlcpy.c                                      :+:      :+:    :+:    */
-/*                                                   +:+ +:+         +:+      */
-/*   By: benbiki <benbiki@gmail.com>               #+#  +:+       +#+         */
-/*                                               +#+#+#+#+#+   +#+            */
-/*   Created: 2026/10/18 16:28:58 by benbiki          #+#    #+#              */
-/*   Updated: 2026/10/18 20:29:54 by benbiki         ###   ########.fr        */
+/*                                                        :::      ::::::::   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/18 16:28:58 by benbiki           #+#    #+#             */
+/*   Updated: 2026/10/22 19:51:10 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,11 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	return (ft_strlen(src));
 }
 
-int	main(void)
-{
-	char	src[] = "DOG";
-	char	dst[4];
+// int	main(void)
+// {
+// 	char	src[] = "DOG";
+// 	char	dst[4];
 
-	ft_strlcpy(dst, src, 0);
-	return (0);
-}
+// 	ft_strlcpy(dst, src, 0);
+// 	return (0);
+// }

@@ -6,15 +6,15 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 11:06:52 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/15 14:33:44 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/10/22 19:52:48 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
-    if (c >= 97 && c <= 122)
-        c -= 32;
-    return (c);
+	if (c >= 97 && c <= 122)
+		c -= 32;
+	return (c);
 }

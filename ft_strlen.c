@@ -6,15 +6,15 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 18:59:40 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/15 14:33:36 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/10/22 19:51:14 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	while (s[i] != '\0')
