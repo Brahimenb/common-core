@@ -6,7 +6,7 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 20:32:01 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/25 21:13:17 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/10/26 12:22:49 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,25 @@ char	**ft_split(const char *s, char c)
 	if (!res)
 		return (NULL);
 	return (split_fill(s, c, res, count));
+}
+
+int	main(void)
+{
+	char	**res;
+	size_t	i;
+
+	res = ft_split(",,cat,,,dog,", ',');
+	if (!res)
+		return (1);
+	i = 0;
+	while (res[i])
+	{
+		printf("[%s]\n", res[i]);
+		free(res[i]);
+		i++;
+	}
+	free(res);
+	return (0);
 }
 ////
 

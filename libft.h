@@ -6,7 +6,7 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 14:26:28 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/24 20:32:58 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/10/26 12:51:35 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,5 +54,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(const char *s1, const char *set);
 char	**ft_split(const char *s, char c);
+char	*ft_itoa(int n);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 13:38:59 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/23 18:44:06 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/10/26 12:47:08 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ptr[tot] = '\0';
 	return (ptr);
 }
+
 // int	main(void)
 // {
 // 	char	*g;
