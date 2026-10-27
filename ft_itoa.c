@@ -6,7 +6,7 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 12:51:03 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/26 19:08:53 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/10/26 19:17:03 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,13 +68,13 @@ char	*ft_itoa(int n)
 	return (ptr);
 }
 
-int	main(void)
-{
-	char	*c;
+// int	main(void)
+// {
+// 	char	*c;
 
-	c = ft_itoa(0);
-	return (0);
-}
+// 	c = ft_itoa(0);
+// 	return (0);
+// }
 ///////////////////////////////////////////
 
 // static size_t	ft_numlen(long nbr)

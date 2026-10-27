@@ -6,20 +6,21 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 14:26:28 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/26 12:51:35 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/10/27 13:38:34 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
-
 # include <stdint.h>
 # include <stdlib.h>
 # include <stddef.h>
+# include <unistd.h>
+# include <stdio.h>
 
 void	ft_bzero(void *s, size_t n);
+
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
 int		ft_isascii(int c);
@@ -55,5 +56,13 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(const char *s1, const char *set);
 char	**ft_split(const char *s, char c);
 char	*ft_itoa(int n);
+
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
+
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
 
 #endif
