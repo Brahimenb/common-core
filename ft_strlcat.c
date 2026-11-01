@@ -6,7 +6,7 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 11:41:23 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/22 19:51:06 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/01 16:23:09 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,13 +35,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[i + j] = '\0';
 	return (ln_dst + ln_src);
 }
-// int	main(void)
-// {
-// 	char	dest[7] = "He";
-// 	char	src[] = "gu u";
-// 	size_t	y = ft_strlcat(dest, src, 7);
-
-// 	printf("%zu\n", y);
-// 	printf("%s\n", dest);
-// 	return (0);
-// }

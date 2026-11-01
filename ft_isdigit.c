@@ -6,11 +6,9 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 18:41:36 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/22 19:49:51 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/01 16:20:31 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isdigit(int c)
 {

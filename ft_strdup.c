@@ -6,7 +6,7 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 12:53:08 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/22 19:50:57 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/01 16:22:59 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,20 +30,3 @@ char	*ft_strdup(const char *s)
 	ptr[i] = '\0';
 	return (ptr);
 }
-
-// int	main(void)
-// {
-// 	char	*ptr;
-
-// 	ptr = ft_strdup("hello");
-// 	if (ptr == NULL)
-// 		return (1);
-// 	printf("Test 1: %s\n", ptr);
-// 	free(ptr);
-// 	ptr = ft_strdup("");
-// 	if (ptr == NULL)
-// 		return (1);
-// 	printf("Test 2: \"%s\"\n", ptr);
-// 	free(ptr);
-// 	return (0);
-// }

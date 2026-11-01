@@ -6,11 +6,9 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 18:48:16 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/22 19:49:30 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/01 16:20:27 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isalnum(int c)
 {

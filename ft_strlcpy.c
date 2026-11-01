@@ -6,7 +6,7 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 16:28:58 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/22 19:51:10 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/01 16:23:12 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (ft_strlen(src));
 }
-
-// int	main(void)
-// {
-// 	char	src[] = "DOG";
-// 	char	dst[4];
-
-// 	ft_strlcpy(dst, src, 0);
-// 	return (0);
-// }

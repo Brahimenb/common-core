@@ -6,11 +6,9 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 17:07:35 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/22 19:46:51 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/01 16:20:15 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_atoi(const char *nptr)
 {
@@ -36,15 +34,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (result * sing);
 }
-
-// int	main(void)
-// {
-// 	// const char nbr[] = "-2147483648";
-// 	// int i = ft_atoi(nbr);
-// 	// printf("%d\n",i);
-// 	printf("%d\n", ft_atoi("2147483648"));
-// 	printf("%d\n", ft_atoi("-2147483648"));
-// 	printf("%d\n", ft_atoi("-2147"));
-// 	printf("%d\n", ft_atoi("+21474abcd"));
-// 	printf("%d\n", ft_atoi("-+-2147483648"));
-// }

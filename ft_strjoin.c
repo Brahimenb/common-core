@@ -6,7 +6,7 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/23 12:34:15 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/23 18:46:59 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/01 16:23:06 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ptr[tot1 + tot2] = '\0';
 	return (ptr);
 }
-
-// int	main(void)
-// {
-// 	char	str;
-
-// 	str = ft_strjoin("Hello", " Word");
-// 	pritnf("%s", str);
-// }

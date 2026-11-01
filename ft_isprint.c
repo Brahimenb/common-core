@@ -6,11 +6,9 @@
 /*   By: benbiki <benbiki@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 18:56:48 by benbiki           #+#    #+#             */
-/*   Updated: 2026/10/22 19:49:54 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/01 16:20:32 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int c)
 {
