@@ -71,28 +71,11 @@ char	**ft_split(const char *s, char c)
 	size_t	count;
 	char	**res;
 
+	if (s == NULL)
+		return (NULL);
 	count = ft_count(s, c);
 	res = malloc((count + 1) * sizeof(*res));
 	if (!res)
 		return (NULL);
 	return (split_fill(s, c, res, count));
-}
-
-int	main(void)
-{
-	char	**res;
-	size_t	i;
-
-	res = ft_split(",,cat,,,dog,", ',');
-	if (!res)
-		return (1);
-	i = 0;
-	while (res[i])
-	{
-		printf("[%s]\n", res[i]);
-		free(res[i]);
-		i++;
-	}
-	free(res);
-	return (0);
 }
