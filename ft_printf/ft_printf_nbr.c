@@ -6,13 +6,13 @@
 /*   By: benbiki <benbiki@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 13:41:02 by benbiki           #+#    #+#             */
-/*   Updated: 2026/11/10 16:23:49 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/12 14:53:38 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putnbr_digits(unsigned long long n)
+int	ft_putnbr_digits(unsigned long n)
 {
 	int	result;
 	int	count;
@@ -32,9 +32,9 @@ int	ft_putnbr_digits(unsigned long long n)
 
 int	ft_putnbr(int nbr)
 {
-	long long	n;
-	int			result;
-	int			sign_count;
+	long	n;
+	int		result;
+	int		sign_count;
 
 	n = nbr;
 	sign_count = 0;

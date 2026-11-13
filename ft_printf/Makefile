@@ -2,7 +2,7 @@
 CC = cc
 NAME = libftprintf.a
 
-# CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror
 
 AR = ar
 ARFLAGS = rcs

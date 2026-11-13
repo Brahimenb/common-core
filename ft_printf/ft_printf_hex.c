@@ -6,13 +6,13 @@
 /*   By: benbiki <benbiki@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 13:41:15 by benbiki           #+#    #+#             */
-/*   Updated: 2026/11/10 14:16:48 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/12 14:53:37 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_puthex(unsigned long long n, const char *digits)
+int	ft_puthex(unsigned long n, const char *digits)
 {
 	int	count;
 	int	result;
@@ -44,7 +44,7 @@ int	ft_putptr(void *ptr)
 	if (count == -1)
 		return (-1);
 	n = (uintptr_t)ptr;
-	result = ft_puthex((unsigned long long)n, smal);
+	result = ft_puthex((unsigned long)n, smal);
 	if (result == -1)
 		return (-1);
 	return (count + result);
