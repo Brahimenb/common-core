@@ -6,7 +6,7 @@
 /*   By: benbiki <benbiki@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 13:40:30 by benbiki           #+#    #+#             */
-/*   Updated: 2026/11/13 17:29:28 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/19 20:53:46 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,7 @@ int	ft_handle(char specifier, va_list args)
 {
 	const char	*smal = "0123456789abcdef";
 	const char	*large = "0123456789ABCDEF";
-	const char	*deux = "01";
-	if (specifier == 'a')
-		return (ft_deux(va_arg(args, unsigned int), deux));
+
 	if (specifier == 'p')
 		return (ft_putptr(va_arg(args, void *)));
 	if (specifier == 'x')
