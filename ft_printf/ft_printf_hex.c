@@ -6,7 +6,7 @@
 /*   By: benbiki <benbiki@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 13:41:15 by benbiki           #+#    #+#             */
-/*   Updated: 2026/11/12 14:53:37 by benbiki          ###   ########.fr       */
+/*   Updated: 2026/11/13 17:32:29 by benbiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,23 @@ int	ft_puthex(unsigned long n, const char *digits)
 			return (-1);
 	}
 	result = ft_putchar(digits[n % 16]);
+	if (result == -1)
+		return (-1);
+	return (count + result);
+}
+int	ft_deux(unsigned long n, const char *digits)
+{
+	int	count;
+	int	result;
+
+	count = 0;
+	if (n >= 2)
+	{
+		count = ft_deux(n / 2, digits);
+		if (count == -1)
+			return (-1);
+	}
+	result = ft_putchar(digits[n % 2]);
 	if (result == -1)
 		return (-1);
 	return (count + result);
